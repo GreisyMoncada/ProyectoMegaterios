@@ -7,14 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./ProyectoMegaterios/prueba.css">
+    <link rel="stylesheet" href="./prueba.css">
     <title>Primera</title>
 </head>
 
 <body>
+    <!-- Primera sesion narvar-->
+    <main class="primera">
+        <div class="logo">
+            <img src="./img/bombilla-de-idea.png" alt="logo" id="icon">
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">HOME</a>
+                <a class="navbar-brand"  id="home" href="#">HOME</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -23,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home 1</a>
+                            <a class="nav-link active" aria-current="page" href="#primera">Home 1</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -31,15 +36,14 @@
                                 Home 2
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Home Field 1</a></li>
+                                <li><a class="dropdown-item" href="#diapositiva">Home Field 1</a></li>
                                 <li><a class="dropdown-item" href="#">Home Field 2</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home 3</a>
+                            <a class="nav-link" href="#parte2">Home 3</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contactus</a>
+                            <a class="nav-link" href="#contactos">Contactus</a>
                         </li>
                         </li>
                     </ul>
@@ -47,74 +51,229 @@
             </div>
         </nav>
 
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col-sm-5">
-                <p class="">Lorem Ipsum is<br> simply dummy</p>
-                <p class=""> Lorem Ipsum is simply dummy</p>
-                <form action="" class="row">
-                    <div class="col-auto">
-
-                        <div class="input-group">
-                        
-                            <div class="input-group-email"></div>
-                            <input type="email" class="form-control" placeholder="ingrese su correo">&nbsp&nbsp&nbsp
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </div>    
-                </form>
-            </div>   
-                 <div class="col-sm-3"><img src="./ProyectoMegaterios/img/esta (1).png" class="image"></div>
-        </div> 
-    </div>
-
-    <div class="container">
-        <div class="row  columns-2 align-items-start" >
-          <div class="col">
-            <img src="./ProyectoMegaterios/img/3.png" alt="icono" class="ico"><h2>HEADING 1</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-          <br><br><br><br><br><br>
-            <img src="./ProyectoMegaterios/img/4.png" alt="icono" class="ico"> <h2>HEADING 2</h2><p>Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,</p><br><br><br><br><br>
-             <img src="./ProyectoMegaterios/img/5.png" alt="icono" class="ico"><h2>HEADING 3</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-         </div>
-          <div class="col"><img src="./ProyectoMegaterios/img/fondo.png" alt="fondo" id="fondo"><br><br><br>
-             
-              <div style="position: relative;" class="superponer">
-                <div style="position: absolute; right: px; left: 60px; bottom: 50px;" id="superposicion"> <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        </p>
-                    CEO NAME
-                    President & CEO </div>
-             </div>
+        <!-- Fin del narvar -->
+        <!-- grid container -->
+        <div class="grid">
+            <!-- p inicio de texto -->
+            <p id="grande"> Lorem Ipsum is simply dummy</p>
+            <p id="pequeño"> Lorem Ipsum is simply dummy</p>
+            <!-- fin del texto-->
+            <!-- form inicio del formulario -->
+            <form action="" class="row">
+                <div class="col-auto">
+                    <a name="primera">
+                    <div class="input-group">
+                        <div class="input-group-email"></div>
+                        <input type="email"  placeholder="Insert Your Email*" id="correo">&nbsp&nbsp&nbsp
+                        <button type="submit" id="boton">Register</button>
+                    </div>
+                </div>    
+            </form>
+            <!-- fin del formulario-->
+            
         </div>
 
-
-        <div class="grid">
+        <!-- div contenedor de imagen -->
             
-            <div class="conta" ><h3>HEADING 5</h3><p>Lorem Ipsum is simply dummy
-                text of the printing and typesetting
-                industry. Lorem Ipsum has been the
-                industry's standard dummy text
-                ever since the 1500s,</p></div><br><br><br>
+        <div class="imagen"> <img src="./img/imagen.jpg" alt="inicio" style="float: right;"></div>
 
-            <div class="conta" ><h3>HEADING 6</h3><p>Lorem Ipsum is simply dummy
+    </main>
+    <!-- fin de la primera sesion -->
+    <!-- main contenedor de la segunda sesion -->
+    <main class="segunda">  
+         <!-- div container  -->
+            <div class="container">
+                <div class="row  columns-2 align-items-start" >
+                  <div class="col">
+                    <img src="./img/acerca-de.png" alt="icono" class="ico"><h2>HEADING 1</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <br><br>
+                    <img src="./img/vector (1).png" alt="icono" class="ico"> <h2>HEADING 2</h2><p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p><br><br><br>
+                     <img src="./img/binoculares.png" alt="icono" class="ico"><h2>HEADING 3</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                 </div>
+
+                <div class="col"><img src="./img/fondo.png" alt="fondo" id="fondo"><br>
+ 
+                    <div style="position: relative;" class="superponer">
+                      <div style="position: absolute;  left: 60px; bottom: 50px;" id="contenidopadre">
+                        <div id="contenidohijo">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                           <br><br><br> <p>CEO NAME<br>President & CEO</p> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+    </main> <a  name="parte2"></a>
+
+    <div class="tercera">
+
+        <div class="gri">
+            <div id="titu"><p>OUR SERVICES</p></div>
+            <div id="textoprincipal"><p>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,</p></div>
+            <div class="wrapper"> 
+                
+                <div class="box1"><img src="./img/tendencia.png" alt="logo" class="logos"><h3>HEADING 5</h3><p>Lorem Ipsum is simply dummy
                     text of the printing and typesetting
                     industry. Lorem Ipsum has been the
                     industry's standard dummy text
-                    ever since the 1500s,</p></div><br><br><br>
+                    ever since the 1500s,</div>
 
-            <div class="conta" ><h3>HEADING 7</h3><p>Lorem Ipsum is simply dummy
-                        text of the printing and typesetting
-                        industry. Lorem Ipsum has been the
-                        industry's standard dummy text
-                        ever since the 1500s,</p></div>
-                        
-            
+                <div class="box2"><img src="./img/vector.png" alt="logo" class="logos"><h3>HEADING 6</h3><p>Lorem Ipsum is simply dummy
+                    text of the printing and typesetting
+                    industry. Lorem Ipsum has been the
+                    industry's standard dummy text
+                    ever since the 1500s,</div>
+
+                <div class="box3"><img src="./img/apoyo.png" alt="logo" class="logos"><h3>HEADING 7</h3><p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the
+                industry's standard dummy text
+                ever since the 1500s,</div>
+
+                <div class="box4"><img src="./img/terminal.png" alt="logo" class="logos"><h3>HEADING 8</h3><p>Lorem Ipsum is simply dummy
+                    text of the printing and typesetting
+                    industry. Lorem Ipsum has been the
+                    industry's standard dummy text
+                    ever since the 1500s,</div>
+
+                <div class="box5"><img src="./img/control-de-seguridad.png" alt="logo" class="logos"><h3>HEADING 9</h3><p>Lorem Ipsum is simply dummy
+                    text of the printing and typesetting
+                    industry. Lorem Ipsum has been the
+                    industry's standard dummy text
+                    ever since the 1500s,</div>
+                <div class="box5"><img src="./img/grafico-circular.png" alt="logo" class="logos"><h3>HEADING 10</h3><p>Lorem Ipsum is simply dummy
+                    text of the printing and typesetting
+                    industry. Lorem Ipsum has been the
+                    industry's standard dummy text
+                    ever since the 1500s,</div>
+            </div>
+
         </div>
-        
+    </div>
+
+    <div class="cuarta"> <a name="diapositiva"></a>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                <span></span>
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                <span></span>
+              </button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                <span></span>
+              </button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="grey">
+                    <div> <p id="gre">We are lOREM IPSUM <p id="gre1">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s,</p>
+                        <br>
+                        </p>
+                    </div>
+                    <img src="./img/portada.jpg" alt="portada" id="portada"> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="grey">
+                    <div> <p id="gre">A 360 LOREM IPSUM<p id="gre1">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s,</p>
+                            <br>
+                        </p>
+                    </div>
+                    <img src="./img/pagina2.jpg" alt="portada" id="portada"> 
+            
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="grey">
+                    <div> <p id="gre">We Are LOREM IPSUM<p id="gre1">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s,</p>
+                            <br>
+                        </p>
+                    </div>
+                    <img src="./img/pagina3.jpg" alt="portada" id="portada"> 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+          
+          <footer class="page-footer">
+            <span id="fotertexto">OUR EXCITING CLIENTS</span>
+            
+                <div class="foter">
+                    <div class="row row-cols-5">
+                      <div class="cols"><img src="./img/bombilla-de-idea.png" alt="logo" id="logo"></div>
+                      <div class="cols"><img src="./img/bombilla-de-idea.png" alt="logo" id="logo"></div>
+                      <div class="cols"><img src="./img/bombilla-de-idea.png" alt="logo" id="logo"></div>
+                      <div class="cols"><img src="./img/bombilla-de-idea.png" alt="logo" id="logo"></div>
+                      <div class="cols"><img src="./img/bombilla-de-idea.png" alt="logo" id="logo"></div>
+                    </div>
+                  </div>
+          </footer>
+         
+
+            <div class="formulario">
+                <h1>LET’S WORK TOGETHER</h1><hr>
+
+                <form action="">
+
+                    <label for="exampleDataList" class="form-label"></label>
+                    <input class="form-control" list="datalistOptions" id="lista" placeholder="How Can We Help You?">
+                    <datalist id="datalistOptions">
+                    <option value="San Francisco">
+                    <option value="New York">
+                    <option value="Seattle">
+                    <option value="Los Angeles">
+                    <option value="Chicago">
+                    </datalist>
+                    <div class="input-gro mb-3">
+                        <input type="text" class="input-text"  id="inpus" placeholder="Name*" aria-label="Username">
+                        <input type="email" class="input-text2"  id="inpus" placeholder="Email*" aria-label="Username">
+                        
+                    </div>
+                    <div class="input-2 mb-3">
+                        <input type="text" class="input-text"  id="inpus" placeholder="Phone*" aria-label="Username">
+                        <input type="text" class="input-text2"  id="inpus" placeholder="Organization*" aria-label="Username">   
+                    </div>
+                    <div class="input-3">
+                        <input type="text" class="input-mensaje"  id="mensaje-1" placeholder="Mensagge" aria-label="Username">
+                    </div>
+                        <input class="btn" type="submit" value="Submit">     
+                </form>
+
+               
+            </div>
+
+            <div class="footer-redes">
+                 <footer class="redes">
+                        <div class="informacion">
+                            <div class="row row-cols-2">
+                            <div class="nombre">© Copyright 2022 | All Rights Reserved</div>
+                            <div class="redes-sociales">Follow Us: <img src="./img/facebook.png" alt="redes" id="redes"><img src="./img/instagram.png" alt="redes" id="redes"><img src="./img/instagram.png" alt="redes" id="redes"><img src="./img/linkedin.png" alt="redes" id="redes"></div>
+                            
+                        </div>
+                </footer>
+            </div> <a name="contactos">
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -122,3 +281,6 @@
 </body>
 
 </html>
+
+
+ 
