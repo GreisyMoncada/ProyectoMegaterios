@@ -1,3 +1,21 @@
+#main { width:960px; margin:0 auto; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style de la portada*/
+
 .primera{
     height: 1080px;
     width: 1920px;
@@ -6,7 +24,7 @@
     border-radius: 0px;
     
 }
-
+/*barra de navegacion*/
 .navbar{
     
     padding-right: 20px;
@@ -15,7 +33,7 @@
     
 }
 
-
+/* el boton del home*/
 #home{
 
     font-family: 'Nexa Light';
@@ -53,7 +71,7 @@ color: #18140D;
     
     color: #FFFFFF;
 }
-
+/* container*/
 .grid{
     display: grid;
     grid-template-columns: 1fr;
@@ -79,7 +97,7 @@ color: #18140D;
     
     
 }
-
+/* style texto*/
 #grande{
     
     width: 600px;
@@ -94,7 +112,7 @@ color: #18140D;
     
     color: #18140D;
 }
-
+/*style segundo texto*/
 #pequeño{
     position: absolute;
     width: 1000px;
@@ -109,6 +127,8 @@ color: #18140D;
     color: #18140D;
     
 }
+
+/* input type email*/
 #correo{
     position: absolute;
     width: 474px;
@@ -119,6 +139,8 @@ color: #18140D;
     box-sizing: border-box;
 
 }
+
+/* input type Sumit*/
 
 #boton{
     position: absolute;
@@ -133,12 +155,12 @@ color: #18140D;
     font-weight: 700;
     font-size: 24px;
     line-height: 24px;
-    /* identical to box height */
+   
     
     
     color: #FFFFFF;
 }
-
+/* style pleaceholder del input typo correo*/
 input#correo {
     font-family: 'Nexa';
     font-style: normal;
@@ -152,8 +174,9 @@ input#correo {
 
 
 }
+/* Fin del style de la portada*/
 
-
+/* style de la segunda sesion*/
 .segunda{
     height: 1080px;
     width: 1920px;
@@ -162,6 +185,7 @@ input#correo {
     border-radius: 0px;
     
 }
+/* style logo */
 .logo{
   
     position: absolute;
@@ -178,6 +202,7 @@ input#correo {
     border-radius: 0px;
     
 }
+/* Style de los Id icon */
 #icon{
     position: absolute;
     text-align: center;
@@ -194,15 +219,7 @@ input#correo {
     
     color: #FFFFFF;
 }
-
-
-.container{
-    
-    left: 170px;
-    
-   
-}
-
+/* style de las imagenes con clase ico*/
 .ico{
     position: absolute;
     width: 96px;
@@ -212,19 +229,13 @@ input#correo {
     display: inline-block;
 }
 
+/* style de imagen de fondo*/
 #fondo{
    border-radius: 14px;
    width: 100%;
-
-   
-  
-
 }
-.parrafos{
-    padding-top: 900px;
-    width: 1920px;
-    height: 1080px;
-}
+
+/* style del parrafo de la clase container*/
 .container p {
     text-align: justify;
     width: 617px;
@@ -241,17 +252,19 @@ input#correo {
     color: #000000;
 }
 
-
+/* style del div de la clase superponer */
 #contenidopadre{
     position: absolute;
     width: 689px;
     height: 269px;
-    left: 1077px;
     top: -173px;
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
+    position: absolute;  
+    left: 60px; 
+    bottom: 50px;
 }
 
 #contenidohijo{
@@ -280,6 +293,7 @@ input#correo {
     text-align: left;
 }
 
+/* style de la tercera seccion*/
 
 .tercera{
     position: absolute;
@@ -361,6 +375,7 @@ h3{
     padding-top: 100px;
 }
   
+/* style de cuarta seccion*/
 .cuarta{
     position: absolute;
     width: 1920px;
@@ -500,10 +515,12 @@ h3{
 }
 
 .formulario{
+    top: 2700px;
     position: relative;
     width: 1920px;
     height: 1080px;
     left: 0px;
+   
     
     background: #F0EEEE;
 }
@@ -673,15 +690,25 @@ input#inpus {
     left: 858px;
     top: 610px;
     background: #4385F5;
+    font-family: 'Nexa Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #F0EEEE;
 }
 
 .footer-redes{
 
-    position: absolute;
     width: 1920px;
     height: 158px;
     left: 0px;
     padding-top: 20px;
+    position: relative;
+    top: 2700px;
   
     
     background: #4385F5;
@@ -694,6 +721,7 @@ input#inpus {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+    padding-top: 50px;
     
     text-align: center;
     
@@ -711,6 +739,7 @@ input#inpus {
     text-align: center;
     
     color: #F0EEEE;
+    padding-top: 50px;
 }
 
 #redes{
@@ -719,4 +748,26 @@ input#inpus {
     
 }
 
+
+/* responsive */
+
+
+@media screen and (max-width:1920px){
+    
+    body,
+    .imagen{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+
+    .logo,
+    #icon{
+
+        width: 20%;
+    }
+}
 
