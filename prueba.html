@@ -15,10 +15,8 @@
 </head>
 
 <body>
-
-    <main class="pagina">
-        <!-- portada-->
-            <main class="primera">
+            <!-- portada-->
+        <main class="primera">
                 <!-- icon logo-->
                 <div class="logo">
                     <img src="./img/bombilla-de-idea.png" alt="logo" id="icon">
@@ -88,36 +86,45 @@
 
                 <!-- div contenedor de imagen -->
                     
-                <div class="imagen"> <img src="./img/imagen.jpg" alt="inicio" style="float: right;" ></div>
+                <div class="imagen"> <img src="./img/imagen.jpg" alt="inicio" style="float: right;" id="primerimagen"></div>
 
-            </main>
+        </main>
             <!-- fin de la portada-->
             <!-- main contenedor de la segunda seccion -->
             <main class="segunda">  
                 <!-- div container de textos y imagenes -->
-                    <div class="container">
-                        <div class="row  columns-1" >
-                        <div class="col">
-                            <img src="./img/acerca-de.png" alt="icono" class="ico"><h2>HEADING 1</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        <br><br>
-                            <img src="./img/vector (1).png" alt="icono" class="ico"> <h2>HEADING 2</h2><p>Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p><br><br><br>
-                            <img src="./img/binoculares.png" alt="icono" class="ico"><h2>HEADING 3</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
+                <div class="container">
+                    <div class="row " >
+                    <div class="col col-1" style="width: 10%;">
+                        <p><img src="./img/acerca-de.png" alt="icono" class="ico"></p><br><br><br><br><br>
+                        <p><img src="./img/vector (1).png" alt="icono" class="ico"> </p><br><br><br><br><br>
+                        <p><img src="./img/binoculares.png" alt="icono" class="ico"></p><br><br><br>
+                    </div>
+                    <div class="col col-6" style="width: %;">
+                        <h2>HEADING 1</h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <br><br>
+                    <h2>HEADING 2</h2><p>Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p><br><br><br>
 
-                        <div class="col"><img src="./img/fondo.png" alt="fondo" id="fondo"><br>
-        
-                            <div style="position: relative;" class="superponer">
-                            <div id="contenidopadre">
-                                <div id="contenidohijo">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                                <br><br><br> <p>CEO NAME<br>President & CEO</p> 
-                                </div>
-                                
+                        <h2>HEADING 3</h2><p>Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p><br><br><br>
+
+                    </div>
+
+                    <div class="col col-5" style="background-image: url(./img/fondo.png);
+                    border-radius: 14px width:55% ">
+                        <div style="position: relative;" class="superponer">
+                        <div id="contenidopadre">
+                            <div id="contenidohijo">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            <br><br><br> <p>CEO NAME<br>President & CEO</p> 
                             </div>
+                            
                         </div>
                     </div>
-                        <!-- fin del container-->
+                </div>
+                    <!-- fin del container-->
+    
             </main><a  name="parte2"></a>
             <!-- Fin de la segunda seccion-->
             
@@ -307,7 +314,7 @@
                 </footer>
             </div> <!-- Fin del container del footer --> <a name="contactos">
 
-    </main>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
