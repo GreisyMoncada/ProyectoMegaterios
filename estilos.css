@@ -207,12 +207,6 @@ input::placeholder{
 }
 
 
-
-
-
-
-
-
 /*style de la cuarta sección*/
 
 .contenedor{
@@ -273,6 +267,37 @@ input::placeholder{
     color: #020202;
     
 }
+
+/*botones*/
+
+.adelante{
+    font-size: 46px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin-top: 25%;
+    
+    right: 1em;
+
+}
+.atras{
+    font-size: 46px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin-top: 25%;
+  
+
+    left: 1em;
+ 
+    
+ 
+
+}
+
+
 
 /*footer logos*/
 #logo{
