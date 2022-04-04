@@ -35,6 +35,10 @@ body{
     color: #18140D;
 }
 
+#navega{
+    background: none;
+}
+
 .dropdown-menu{
     background-color: black;
 }
