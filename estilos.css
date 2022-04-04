@@ -102,29 +102,34 @@ input::placeholder{
     padding-right: 100px;
 }
 
+/*style del container*/
+
 .container-fluid{
-    padding-top: 30px;
+    margin-top: 50px;
     background: #4385F5;
 }
 
 
-
+/*style del container grid*/
 .grid{
 
     display: grid;
     grid-template: 1fr 1fr  / 1fr 1fr 1fr ;
-    grid-gap: 2em;
+    grid-gap: 30px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 60px;
     padding-top: 30px;
+   
 
 
 }
 
+/*style de los container de textos (parrafos)*/
 .box{
     border: 2px solid #282828;
     box-sizing: border-box;
+    grid-template-rows: auto auto; 
     
     padding: 20px;
     font-family: 'Nexa';
@@ -136,6 +141,7 @@ input::placeholder{
     
     color: #FFFFFF;
 }
+/*style del titulo*/
 
 .titulo{
     font-family: 'Norwester';
@@ -147,6 +153,7 @@ input::placeholder{
     
     color: #FFFFFF;
 }
+/* style del subtitulo*/
 
 .subtitulo{
     font-family: 'Nexa';
@@ -209,6 +216,7 @@ input::placeholder{
 
 /*style de la cuarta sección*/
 
+/*style del contenedor*/
 .contenedor{
 
     width: 100%;
@@ -216,6 +224,8 @@ input::placeholder{
     margin-top: 150px;
 
 }
+
+
 
 .slider-contenedor{
     width: 100%;
@@ -241,6 +251,7 @@ input::placeholder{
 .contenido-slider > div {
     width: 40%;
 }
+/*style de los subtitulos*/
 
 .contenido-slider h2 {
     font-family: 'Norwester';
@@ -254,6 +265,7 @@ input::placeholder{
     
     color: #020202;
 }
+/*style de los textos*/
 
 .contenido-slider p {
 
@@ -268,7 +280,7 @@ input::placeholder{
     
 }
 
-/*botones*/
+/* style de los botones*/
 
 .adelante{
     font-size: 46px;
@@ -291,9 +303,6 @@ input::placeholder{
   
 
     left: 1em;
- 
-    
- 
 
 }
 
@@ -315,13 +324,14 @@ input::placeholder{
 
 }
 
-
+/* style del container del formulario*/
 .formulario{
 
     padding-top: 30px;
     margin-left: 100px;
     margin-right: 100px;
 }
+/*style del titulo*/
 
 h1{
     font-family: 'Norwester';
@@ -335,12 +345,17 @@ h1{
     
 }
 
+
+/* style de la etiqueta form*/
 form{
     padding-top: 30px;
+
 }
+
 .for{
     padding-top: 20px;
 }
+/* style de los placeholder de los input*/
 
 .form-input::placeholder{
     font-family: 'Nexa';
@@ -463,22 +478,6 @@ form{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Formato relative */
 
 /*Slider*/
@@ -518,4 +517,15 @@ form{
     }
 
 
+}
+
+/*responsive del grid*/
+
+@media screen and (max-width: 600px)
+
+{
+    .grid {
+        grid-template-columns: 1fr 1fr minmax(160px, 1fr);
+       grid-template-columns: minmax(9em, 1fr);
+    }
 }
